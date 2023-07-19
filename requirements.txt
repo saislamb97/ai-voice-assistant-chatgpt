@@ -1,0 +1,10 @@
+Run the following commands:
+
+1. python -m venv venv
+2. source venv/bin/activate
+3. pip install openai requests python-decouple python-multipart fastapi uvicorn elevenlabs pydantic==1.10
+4. uvicorn main:app
+done
+
+
+#uvicorn main:app --reload
